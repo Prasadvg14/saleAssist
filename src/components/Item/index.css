@@ -1,6 +1,10 @@
 .item {
   margin-bottom: 20px;
   text-align: start;
+  width: 24%;
+}
+.img {
+  width: 100%;
 }
 .price {
   width: 100%;

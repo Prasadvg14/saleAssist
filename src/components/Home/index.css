@@ -5,10 +5,13 @@
   width: 100%;
   background-color: black;
   color: white;
+  justify-content: space-between;
+  align-items: space-between;
 }
 .items {
   width: 90%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 2%;
 }

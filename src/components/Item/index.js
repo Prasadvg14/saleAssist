@@ -13,7 +13,7 @@ class Item extends Component {
             alt="fav"
           />
         </badge>
-        <img src={image_url} alt="title" />
+        <img className="img" src={image_url} alt="title" />
         <h2>{title}</h2>
         <div className="price">
           <p>
