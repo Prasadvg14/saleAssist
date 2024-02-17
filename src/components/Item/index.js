@@ -7,12 +7,6 @@ class Item extends Component {
     const { id, image_url, title } = details;
     return (
       <div key={id} className="item">
-        <badge className="badge">
-          <img
-            src="https://res.cloudinary.com/dv5f6io4i/image/upload/v1708150855/saleAssist%20Assignment/header/zgsahvt630v4vlc9hkfa.png"
-            alt="fav"
-          />
-        </badge>
         <img className="img" src={image_url} alt="title" />
         <h2>{title}</h2>
         <div className="price">
@@ -25,6 +19,12 @@ class Item extends Component {
             alt="icon"
           />
         </div>
+        <badge className="badge">
+          <img
+            src="https://res.cloudinary.com/dv5f6io4i/image/upload/v1708150855/saleAssist%20Assignment/header/zgsahvt630v4vlc9hkfa.png"
+            alt="fav"
+          />
+        </badge>
       </div>
     );
   }
