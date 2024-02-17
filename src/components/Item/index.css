@@ -1,0 +1,23 @@
+.item {
+  margin-bottom: 20px;
+  text-align: start;
+}
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.op {
+  font-size: 10px;
+  color: gray;
+}
+.dis {
+  color: green;
+  font-size: 10px;
+}
+
+.badge {
+  position: relative;
+  left: 80%;
+  bottom: 65%;
+}
